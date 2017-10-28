@@ -1,0 +1,23 @@
+{
+  "name": "phx-university-orientation-app",
+  "version": "1.0.0",
+  "description": "PHX University Orientation App Example.",
+  "author": "Cory Crowley <cory.ivan@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corycrowley/phx-orientation.git"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.17.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "laravel-mix": "^1.5.1",
+    "vue": "^2.5.2"
+  }
+}
