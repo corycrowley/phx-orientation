@@ -7,7 +7,7 @@ new Vue( {
     el: '#app',
 
     data: {
-        eventLocation: '12', // University
+        eventLocation: '12,14', // University
         eventCategory: '5,6', // Only Orientation, Student Ambassadors Category
         eventsCount: '',
         events: {}
