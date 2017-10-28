@@ -7,8 +7,8 @@ new Vue( {
     el: '#app',
 
     data: {
-        eventLocation: '14', // University
-        eventCategory: '5, 6', // Orientation, Student Ambassadors
+        eventLocation: '12', // University
+        eventCategory: '5,6', // Only Orientation, Student Ambassadors Category
         eventsCount: '',
         events: {}
     },
@@ -40,7 +40,6 @@ new Vue( {
             }
 
             Axios.get( eventsApiURL ).then( ( { data } ) => {
-                console.log( data )
                 let eventsData = data
 
                 for ( let i = 0; i < eventsData.length; i++ ) {
